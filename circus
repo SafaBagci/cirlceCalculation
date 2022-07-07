@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        double perimeter, area, pi = 3.14F;
+        int radius;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please radius:");
+        radius = sc.nextInt();
+
+        perimeter = (2 * pi * radius);
+        System.out.println("Perimeter is : " + perimeter);
+
+        area = pi * Math.pow(radius, 2);
+        System.out.println("Area is : " + area);
+
+    }
+}
